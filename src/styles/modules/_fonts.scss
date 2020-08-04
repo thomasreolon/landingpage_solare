@@ -12,3 +12,44 @@
   font-family: ProximaNova-Extrabld;
   src: url("../../fonts/Proxima-Nova-Xbold.otf") format("opentype");
 }*/
+
+
+
+// font sizes
+
+// size of texts
+.title-big{
+  font-size: 12vw;
+  text-align: center;
+}
+.title{
+  font-size: 6vw;
+  text-align: center;
+}
+.paragraph-big{
+  font-size: 5vw;
+  text-align: center;
+}
+.paragraph{
+  font-size: 5vw;
+  text-align: center;
+}
+
+@media (min-width:$ms){
+  .title-big{
+    font-size: 4vw;
+    text-align: justify;
+  }
+  .title{
+    font-size: 3vw;
+    text-align: justify;
+  }
+  .paragraph-big{
+    font-size: 2vw;
+    text-align: justify;
+  }
+  .paragraph{
+    font-size: 1.5vw;
+    text-align: justify;
+  }
+}

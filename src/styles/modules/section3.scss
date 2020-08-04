@@ -1,18 +1,52 @@
 
 .section3{
-    min-height: 30%;
-    background-color: $bg-grey;
 
-    &__img{
-        width: 100%;
-        float: right;
+    background-color: $bg-grey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+
+    &__image{
+        max-width: 60%;
+
+        &-img{
+            float: center;
+            width: 100%;
+        }
     }
-    &__img-container{
-        max-width: 30vw;
-    }
+    
     &__content{
-        padding-left: 40px;
+        padding: 0 10px 0 10px;
         color:white;
-        max-width: 40vw;
+    }
+
+    &-item{
+        flex: 0 0 50%;
+    }
+}
+
+
+
+@media (min-width:$ms){
+    
+    .section3{
+        min-height: 50%;
+
+        &__image{
+            max-width: 60%;
+            padding-right: 4vw;
+
+            &-img{
+                float: right;
+                width: 60%;
+            }
+        }
+        
+        &__content{
+            max-width: 50%;
+            padding: 0 50px 0 5px;
+        }
     }
 }
