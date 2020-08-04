@@ -39,13 +39,14 @@
         position: absolute;
         top:50%;
         transform: translateY(-50%);
-        text-align: center;
         width: 100%;
         padding-left: 5px;
         padding-right: 5px;
+        text-align: center;
 
 
         &-title{
+            text-align: center;
             color: $primary-orange;
             font-family: 'Lato';
             font-weight: 200;
@@ -53,6 +54,7 @@
 
 
         &-text{
+            text-align: center;
             color: white;
         }
     }
