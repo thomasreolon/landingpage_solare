@@ -1,31 +1,16 @@
-$primary-orange: #FEB728;
-$hover-orange: #eeab1c;
-$bg-grey: #2D3039;
-
-
-$font-general-size: 0.05vw;
-@media screen and (max-width : 320px)
-{
-    $font-general-size: 0.035em;
-}
-@media screen and (max-width : 1204px)
-{
-    $font-general-size: 0.04em;
-}
-
-
-
-
 // import fonts
 @import './modules/_fonts.scss';
 
 
 
+// import custom css for the sections
+@import './modules/_general.scss';
+@import './modules/_row.scss';
+@import './modules/section1.scss';
+@import './modules/section2.scss';
+@import './modules/section3.scss';
 
-// import vendor stuffs
+
+
+// import vendor code
 @import 'normalize.css';
-
-
-// import custom css
-@import './modules/general.scss';
-@import './modules/hero.scss';
