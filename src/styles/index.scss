@@ -2,7 +2,17 @@ $primary-orange: #FEB728;
 $hover-orange: #eeab1c;
 $bg-grey: #2D3039;
 
-$font-general-size: 0.035em;
+
+$font-general-size: 0.05vw;
+@media screen and (max-width : 320px)
+{
+    $font-general-size: 0.035em;
+}
+@media screen and (max-width : 1204px)
+{
+    $font-general-size: 0.04em;
+}
+
 
 
 
