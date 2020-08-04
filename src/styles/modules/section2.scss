@@ -2,7 +2,10 @@
 
 .section2{
     position: relative;
-    min-height: 50%;
+    min-height: 55%;
+    @supports (-ms-ime-align: auto) {
+        min-height: 75%;
+    }
 
     &-center-vert{
         position: absolute;

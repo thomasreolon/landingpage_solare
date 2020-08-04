@@ -1,0 +1,104 @@
+.section4{
+    position: relative;
+    height: 190%;
+    
+    &__image{
+        position: relative;
+        width: 100%;
+        min-height: 100%;
+        max-height: 100%;
+        overflow: hidden;
+        z-index: -1;
+    }
+
+
+    &__content{
+        position: absolute;
+        top:50%;
+        transform: translateY(-50%);
+        width: 100%;
+        padding-left: 5px;
+        padding-right: 5px;
+        text-align: center;
+
+        &-title{
+            text-align: center;
+            color: white;
+        }
+    }
+
+    &__card {
+        position: relative;
+
+        width: 60vw;
+        height: 60vw;
+        background-color: $bg-grey;
+
+        &--img{
+            position: absolute;
+            top: 7%;
+            left: 93%;
+            transform: translateX(-100%);
+            width: 25%;
+
+            &-luce{
+                width: 33%;
+            }
+        }
+
+        &--text{
+            text-align: left;
+            color: white;
+            position: absolute;
+            top: 85%;
+            left: 8%;
+            transform: translateY(-100%);
+        }
+
+        &--triangle{
+            position: absolute;
+            top:-4%;
+            left:-17%;
+            width: 0; 
+            height: 0; 
+            border-left: 15vw solid transparent;
+            border-right: 15vw solid transparent;
+            
+            transform: rotate(-45deg);
+            border-bottom: 15vw solid $primary-orange;
+        }
+
+        &--percent{
+            font-size: 7vw;
+            color:white;
+            position: absolute;
+            top:-7%;
+            left:-3%;            
+            transform: rotate(-45deg);
+        }
+      }
+
+}
+
+
+
+@media (min-width:$ms){
+    .section4{
+        height: 100%;
+    
+        &__card {
+            width: 22vw;
+            height: 22vw;
+
+
+            &--triangle{
+                border-left: 6vw solid transparent;
+                border-right: 6vw solid transparent;
+                border-bottom: 6vw solid $primary-orange;
+            }
+            &--percent{
+                font-size: 2.8vw;
+            }
+        }
+    }
+}
