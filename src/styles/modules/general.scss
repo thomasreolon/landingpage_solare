@@ -1,0 +1,26 @@
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+}
+
+
+
+.btn{
+    background-color: $primary-orange;
+    color: white;
+    padding: 10px 50px;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 23*$font-general-size;
+    cursor: pointer;
+
+    &--margin-top{
+        margin-top: 80*$font-general-size;
+    }
+}
+
+.btn:hover{
+    background-color: $hover-orange;
+}

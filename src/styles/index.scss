@@ -1,0 +1,21 @@
+$primary-orange: #FEB728;
+$hover-orange: #eeab1c;
+$bg-grey: #2D3039;
+
+$font-general-size: 0.035em;
+
+
+
+// import fonts
+@import './modules/_fonts.scss';
+
+
+
+
+// import vendor stuffs
+@import 'normalize.css';
+
+
+// import custom css
+@import './modules/general.scss';
+@import './modules/hero.scss';
