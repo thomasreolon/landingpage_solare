@@ -47,4 +47,23 @@ $ npm run build
 :heavy_check_mark: **per te ci facciamo in 5**
 :heavy_check_mark: **stats**
 :heavy_check_mark: **ora tocca a te**  
-footer
+:heavy_check_mark: **footer**
+
+
+**FIXES**
+
+liste più a dx
+import immagine frecce
+triangolo + sx
+js freccia e bottoni
+
+per te ci facciamo in 5 va a capo
+
+margin sopra btn ora tocca te
+
+link1 più piccolo
+
+non nero-nero
+
+MOBILE
+
