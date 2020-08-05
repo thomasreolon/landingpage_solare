@@ -27,18 +27,41 @@
 
         &__form{
             border: red 1px solid;
+            &-check{
+                position:relative;
+            }
         }
 
         &__form input{
             width:100%;
             margin: 5px 0;
-            border: $primary-orange 1px solid;
+            border: $primary-orange 2px solid;
 
         }
 
         &__form input[type=text]{
             padding: 12px 20px;
-            border-radius: 1px;
+            border-radius: 2px;
+        }
+        &__form input[type=checkbox]{
+            width: 0.5rem;
+            height: 0.5rem;
+            border-radius: 2px;
+            background-color: white;
+
+            float: left;
+            -moz-appearance:none;
+            -webkit-appearance:none;
+            -o-appearance:none;
+        }
+        &__form input[type=checkbox]:checked{
+            -webkit-appearance:checkbox;
+            -moz-appearance:checkbox;
+            -o-appearance:checkbox;
+        }
+        &__form label{
+            float:right;
+            width: 90%;
         }
     }
 }
