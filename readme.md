@@ -1,3 +1,7 @@
+## Caricare il sito
+
+il modo più veloce per visualizzare la landing page è quello di scaricare il contenuto della repository, entrare nella cartella **dist-example** ed aprire il file index.html (contriene l'ultima versione compilata (5 agosto))
+
 
 ## Debug
 
