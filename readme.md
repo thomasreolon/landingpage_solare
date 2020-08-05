@@ -43,7 +43,7 @@ $ npm run build
 :heavy_check_mark: **100% garantito**
 :heavy_check_mark: **risparmi l'80%**
 :heavy_check_mark: **ecobonus**
-energia da regalare
+:heavy_check_mark: **energia da regalare**
 per te ci facciamo in 5
 stats
 ora tocca a te  

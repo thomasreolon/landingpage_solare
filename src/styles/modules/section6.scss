@@ -1,0 +1,30 @@
+.section6{
+    display: table; /* Make the container element behave like a table */
+    width: 100%; /* Set full-width to expand the whole page */
+
+
+    &__left{
+        padding-left: 10%;
+        padding-right: 1%;
+        display: table-cell;
+    }
+
+    &__right{
+        position: relative;
+        display: table-cell;
+        width: 50%;
+        padding-left: 2%;
+        &-img{
+            position: absolute;
+            top:50%;
+            transform: translateY(-50%);
+            width:70%;
+        }
+    }
+}
+
+.section6::after{
+    content: "";
+    display: table;
+    clear: both;
+}

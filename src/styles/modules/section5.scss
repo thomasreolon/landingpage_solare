@@ -1,7 +1,5 @@
 
 .section5{
-    position: relative;
-
     &__left{
         position: relative;
         float: left;
@@ -32,4 +30,9 @@
     }
 
 
+}
+.section5::after{
+    content: "";
+  display: table;
+  clear: both;
 }
