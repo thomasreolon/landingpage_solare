@@ -29,7 +29,7 @@ html, body{
 .btn{
     background-color: $primary-orange;
     color: white;
-    padding: 10px 50px;
+    padding: 1.4vw 3.5vw;
     border: none;
     text-decoration: none;
     display: inline-block;
@@ -39,4 +39,28 @@ html, body{
 
 .btn:hover{
     background-color: $hover-orange;
+}
+
+
+// lists layouts
+
+.yellowdots_ul{
+    position: relative;
+}
+
+.yellowdots_ul li{
+    position: relative;
+    left: -1.5em;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.yellowdots_ul-img{
+    width:2vw;
+    height:2vw;
+}
+.yellowdots_ul-text{
+    padding-left: 10px;
 }

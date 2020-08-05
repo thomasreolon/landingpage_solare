@@ -1,0 +1,35 @@
+
+.section5{
+    position: relative;
+
+    &__left{
+        position: relative;
+        float: left;
+        width: 33.33%;
+
+        &-img{
+            width:100%;
+        }
+    }
+    &__overlap-img{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 50%;
+        width:30vw;
+    }
+    &__right{
+        float: left;
+        width: 66.67%;
+        display: grid;
+        place-items: center;
+        height: 59vw;
+
+        &-content{
+            padding-left: 25%;
+            padding-right: 10%;
+        }
+    }
+
+
+}
