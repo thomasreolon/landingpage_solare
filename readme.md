@@ -46,5 +46,5 @@ $ npm run build
 :heavy_check_mark: **energia da regalare**
 :heavy_check_mark: **per te ci facciamo in 5**
 :heavy_check_mark: **stats**
-ora tocca a te  
+:heavy_check_mark: **ora tocca a te**  
 footer

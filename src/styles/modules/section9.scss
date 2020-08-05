@@ -1,0 +1,44 @@
+
+.section9{
+    color:white;
+    height:100%;
+    position: relative;
+
+    &__image{
+        width:100%;
+        min-height: 100%;
+        max-height: 100%;
+        overflow: hidden;
+        z-index: -1;
+    }
+
+    &__content{
+        width:50%;
+        border: 1px blue solid;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        &-margins{
+            margin: 0 18%;
+        }
+
+        &__form{
+            border: red 1px solid;
+        }
+
+        &__form input{
+            width:100%;
+            margin: 5px 0;
+            border: $primary-orange 1px solid;
+
+        }
+
+        &__form input[type=text]{
+            padding: 12px 20px;
+            border-radius: 1px;
+        }
+    }
+}
