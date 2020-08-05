@@ -44,7 +44,7 @@ $ npm run build
 :heavy_check_mark: **risparmi l'80%**
 :heavy_check_mark: **ecobonus**
 :heavy_check_mark: **energia da regalare**
-per te ci facciamo in 5
+:heavy_check_mark: **per te ci facciamo in 5**
 stats
 ora tocca a te  
 footer
