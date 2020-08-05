@@ -4,10 +4,18 @@
     background-color: $bg-grey;
     &__content{
         padding-top: 40px;
-        width:50%;
+        width:90%;
         margin: 0 auto;
     }
     &__image{
-        width:80%;
+        width:100%;
+    }
+}
+
+@media (min-width:$ms){
+    .section7{
+        &__image{
+            width:90%;
+        }
     }
 }

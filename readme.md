@@ -1,5 +1,5 @@
 
-## Utilizzo
+## Debug
 
 Una landing page realizzata con Webpack
 
@@ -30,6 +30,9 @@ $ npm run build
 
 ## Note
 
+> il css di base è per cellulari, mentre @media(min-width){...} specifica come cambiarlo per desktop
+
+
 > il font **Proxima Nova** era a pagamento, quindi ho usato **Lato**, che è molto simile
 
 > la grandezza dei caratteri usa **vw** invece dei **px** (più responsive?)
@@ -50,20 +53,4 @@ $ npm run build
 :heavy_check_mark: **footer**
 
 
-**FIXES**
-
-liste più a dx
-import immagine frecce
-triangolo + sx
-js freccia e bottoni
-
-per te ci facciamo in 5 va a capo
-
-margin sopra btn ora tocca te
-
-link1 più piccolo
-
-non nero-nero
-
-MOBILE
 

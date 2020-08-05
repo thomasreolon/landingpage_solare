@@ -1,6 +1,7 @@
 
 .section5{
     &__left{
+        display: none;
         position: relative;
         float: left;
         width: 33.33%;
@@ -18,14 +19,13 @@
     }
     &__right{
         float: left;
-        width: 66.67%;
+        width:100%;
         display: grid;
         place-items: center;
         height: 59vw;
-
+        margin-bottom: 15rem;
         &-content{
-            padding-left: 25%;
-            padding-right: 10%;
+            text-align: center;
         }
     }
 }
@@ -33,4 +33,22 @@
     content: "";
     display: table;
     clear: both;
+}
+
+@media (min-width:$ms){
+    .section5{
+        &__left{
+            display: inline;
+        }
+        &__right{
+            width: 66.67%;
+            margin-bottom: 0;
+
+            &-content{
+                text-align: left;
+                padding-left: 25%;
+                padding-right: 10%;
+            }
+        }
+    }
 }

@@ -57,8 +57,8 @@
 
         &--triangle{
             position: absolute;
-            top:-4%;
-            left:-17%;
+            top:-3.7%;
+            left:-16%;
             width: 0; 
             height: 0; 
             border-left: 15vw solid transparent;
@@ -98,6 +98,10 @@
             }
             &--percent{
                 font-size: 2.8vw;
+            }
+            &--triangle{
+                top:-4%;
+                left:-17.6%;
             }
         }
     }

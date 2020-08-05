@@ -16,7 +16,7 @@
     <img class="section1__image" src="images/1_clouds.png" alt="solar-panels">
 
     <div class="section1__content">
-      <h1 class="title-big section1__content-title">C'&Egrave; UN BONUS CHE FA ECO</h1>
+      <h1 class="title-big orange center">C'&Egrave; UN BONUS CHE FA ECO</h1>
       <h2 class="paragraph-big section1__content-text">
           Se ne parla molto, ed è tutto vero.
           <br>
@@ -25,21 +25,21 @@
           Grazie allo straordinario <span class="orange">Ecobonus 110%</span class="orange">
       </h2>
 
-      <button class="paragraph btn">
+      <a class="no-decor paragraph btn" href="#main">
         SCOPRI DI PI&Ugrave
-      </button>
+      </a>
 
     </div>
 
 
-    <a onclick=""><div class="section1__scroll">
-      <i class="fas fa-angle-down section1__scroll-arrow"></i> 
+    <a href="#main"><div class="section1__scroll">
+      <span class="arrow-down"></span> 
     </div></a>
   </div>
 
   <!-- blocco: noi diamo 110% -->
 
-  <div class="section2">
+  <div class="section2" id="main">
     <div class="section2-center-vert">
       <div class="section2__image">
         <img class="section2__image-img" src="images/2_casa.png" alt="impianto-solare">
@@ -53,9 +53,9 @@
         <p class="paragraph">
           Dal sopralluogo tecnico all’installazione finale dell’impianto: pensiamo a tutto noi. <span class="orange">A costi azzerati</span class="orange">, letteralmente. Non ti dovrai preoccupare di nulla, nemmeno dello smaltimento della tua vecchia caldaia. Così a te non resta che limitarti a risparmiare, in tutta comodità.
         </p>
-        <button class="paragraph btn">
+        <a class="no-decor paragraph btn" href="#contattaci">
           CONTATTACI ORA
-        </button>
+        </a>
       </div>
     </div>
   </div>
@@ -99,7 +99,7 @@
             AUMENTO DI <br> <span class="orange">2 CLASSI ENERGETICHE</span>
           </h2>
         </div>
-        <!-- card1 -->
+        <!-- card2 -->
         <div class="section4__card flex__item3">
           <div class="section4__card--triangle"></div>
           <p class="section4__card--percent">-80%</p>
@@ -108,7 +108,7 @@
             RISPARMIO <br> BOLLETTE <br> <span class="orange">LUCE</span>
           </h2>
         </div>
-        <!-- card1 -->
+        <!-- card3 -->
         <div class="section4__card flex__item3">
           <div class="section4__card--triangle"></div>
           <p class="section4__card--percent">-80%</p>
@@ -147,9 +147,9 @@
           <li><img src="images/5_ok.png" class="yellowdots_ul-img"> <span class="paragraph yellowdots_ul-text">chi possiede una caldaia a gas da almeno 5 anni</span></li>
           <li><img src="images/5_ok.png" class="yellowdots_ul-img"> <span class="paragraph yellowdots_ul-text">chi ha un tetto a disposizione ma non è già in possesso di un sistema fotovoltaico</span></li>
         </ul>
-        <button class="paragraph btn">
+        <a class="no-decor paragraph btn" href="#contattaci">
           CONTATTACI ORA
-        </button>
+        </a>
       </div>
     </div>
   </div>
@@ -195,7 +195,7 @@
       Richiedici gratis uno studio di fattibilità per valutare insieme i requisiti per poter accedere all’Ecobonus 110%.
     </p>
   </div>
-  <img src="images/1_clouds.png" class="section7__image">
+  <img src="images/7_frecce.jpg" class="section7__image undraggable">
 </div>
 
 
@@ -204,7 +204,7 @@
 
   <div class="section8 flex__container">
     <!-- card1 -->
-    <div class="flex_item flex__container section8__card">
+    <div class="flex__container section8__card">
       <img class="section8__card-img" src="images/8_calendario.svg" alt="esperienza">
       <div class="section8__card__content">
         <h3 class="orange title">+20</h3>
@@ -212,7 +212,7 @@
       </div>
     </div>
     <!-- card2 -->
-    <div class="flex_item flex__container section8__card">
+    <div class="flex__container section8__card">
       <img class="section8__card-img" src="images/8_solarpanel.svg" alt="esperienza">
       <div class="section8__card__content">
         <h3 class="orange title">+7.000</h3>
@@ -220,7 +220,7 @@
       </div>
     </div>
     <!-- card3 -->
-    <div class="flex_item flex__container section8__card">
+    <div class="flex__container section8__card">
       <img class="section8__card-img" src="images/8_utenti.svg" alt="esperienza">
       <div class="section8__card__content">
         <h3 class="orange title">+100</h3>
@@ -235,7 +235,7 @@
 
   <!-- blocco: ora tocca a te -->
 
-  <div class="section9">
+  <div class="section9" id="contattaci">
     <img src="images/9_clouds.png" class="undraggable section9__image" alt="best">
 
     <div class="section9__content">
@@ -283,14 +283,22 @@
 
     <div >
       <ul class="footer-right flex__container">
-        <li><a class="no-decor" href="#">Link1</a></li>
-        <li><a class="no-decor" href="#">Link1</a></li>
-        <li><a class="no-decor" href="#">Link1</a></li>
+        <li><a class="no-decor paragraph" href="#">Link1</a></li>
+        <li><a class="no-decor paragraph" href="#">Link2</a></li>
+        <li><a class="no-decor paragraph" href="#">Link3</a></li>
       </ul>
     </div>
   </div>
 
 
+  <script>
+    $(function() {
+      $('.scroll-down').click (function() {
+        $('html, body').animate({scrollTop: $('section.ok').offset().top }, 'slow');
+        return false;
+      });
+    });
+  </script>
 </body>
 </html>
 

@@ -4,7 +4,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 
 // import Lato (prox-nova)
-@import url('https://fonts.googleapis.com/css2?family=Lato');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+
 
 
 // import Proxima-Nova (non va)
@@ -21,18 +23,22 @@
 .title-big{
   font-size: 12vw;
   text-align: center;
+  font-weight: 400;
 }
 .title{
   font-size: 6vw;
   text-align: center;
+  font-weight: 400;
 }
 .paragraph-big{
   font-size: 5vw;
   text-align: center;
+  font-weight: 400;
 }
 .paragraph{
   font-size: 5vw;
   text-align: center;
+  font-weight: 400;
 }
 
 @media (min-width:$ms){

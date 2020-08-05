@@ -1,23 +1,46 @@
 
 
 .section8{
-    background-color: black;
+    background-color: $bg-black;
+    padding-top: 3rem;
 
     &__card{
-        width:9em;
+        width:100%;
 
         &__content{
             margin-left: 10px;
             &-text{
-                transform: translateY(-130%);
+                transform: translateY(-50%);
                 color:white;
             }
         }
         &-img{
-            width: 2.1rem;
+            width: 25%;
+            margin: 0 30%;
         }
-    }
-    
+    }   
+}
 
+
+@media (min-width:$ms){
+    .section8{
+        background-color: $bg-black;
+        padding-top: 0.5rem;
     
+        &__card{
+            width:9em;
+    
+            &__content{
+                margin-left: 10px;
+                &-text{
+                    transform: translateY(-130%);
+                    color:white;
+                }
+            }
+            &-img{
+                width: 2.1rem;
+                margin: 0;
+            }
+        }   
+    } 
 }
