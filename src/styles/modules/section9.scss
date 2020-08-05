@@ -72,10 +72,13 @@
 @media (min-width:$ms){
     .section9{
         &__content{
-            width:50%;
+            width:90%;
             &__form input[type=checkbox]{
                 width: 0.5rem;
                 height: 0.5rem;
+            }
+            &-margins{
+                margin: 0 31%;
             }
         }
     }
