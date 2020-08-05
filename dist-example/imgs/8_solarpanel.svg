@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 91 100" width="91" height="100">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M-776 -7189L1144 -7189L1144 1353L-776 1353L-776 -7189Z" />
+		</clipPath>
+		<image width="91" height="100" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFsAAABkAQMAAADT1N6iAAAAAXNSR0IB2cksfwAAAAZQTFRFAAAA/rcohAx3kAAAAAJ0Uk5TAP9bkSK1AAABRklEQVR4nLXSS07DMBAAUBcjsswNyBU4AIqvxJJFhNObWepFInEB7+pFyDCT8YydtqEswKrbvsaaTz3G0GpNtboNxn/CCyUNGck8mcOUMeO2MWPB3QiASpVjHmN1EsCNvHMWF7SJ9gjpWfDQwPKoJbQAVWkApTgXXFD4kpOK02rMIZU6CfgS4M8pNwsngucQ8DkRYsGwBR/zJ4LUYAkS+gqzgvJUFVTlAEDUb7zwoVXMP2IyPQ5FEygvvm/wWmNg9LexxjGNhl7WG7gLvKN2xMbWAN0FOrMCu91Hu8FINy3rAm4XPXydAfwCcKaWOEXi/ioMNMUF9hbw05fQv8amUKvTOfAQ1HgvgJhcudM4c8REcxATg+bCxzef0+B/JblGmSSdo78AVAAZyzyZ+shyybwanogM7PxDgJdJI3UHDqp2MsIu8Ng3h0KgewEay6MAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Clip-Path: landing 1" clip-path="url(#cp1)">
+		<g id="landing 1">
+			<g id="Group 84">
+				<use id="-e-solar-panel (1)" href="#img1" x="0" y="0" />
+			</g>
+		</g>
+	</g>
+</svg>
