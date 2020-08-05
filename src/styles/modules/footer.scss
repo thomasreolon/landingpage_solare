@@ -1,0 +1,22 @@
+
+
+.footer{
+    width: 100%;
+    background-color: $bg-grey;
+    border: 1px blue solid;
+
+
+    &-left{
+        padding-left: 10vw;
+    }
+
+    &-right{
+        padding-right: 10vw;
+    }
+    &-right li{
+        list-style-type: none;
+        font-size: 2vw;
+        padding-right: 6vw;
+    }
+    
+}
