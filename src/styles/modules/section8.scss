@@ -1,0 +1,23 @@
+
+
+.section8{
+    background-color: black;
+
+    &__card{
+        width:10em;
+
+        &__content{
+            margin-left: 10px;
+            &-text{
+                transform: translateY(-130%);
+                color:white;
+            }
+        }
+        &-img{
+            width: 2.4rem;
+        }
+    }
+    
+
+    
+}
